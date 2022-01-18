@@ -76,11 +76,10 @@ main
     list-style: none;
     padding: 0 20px
 }
-.items-navbar li a:focus
+/*.items-navbar li a:focus
 {
     color: var(--blue);
-}
-
+}*/
 .button-feedback
 {
     cursor: pointer;
@@ -101,12 +100,16 @@ main
 }
 .button-feedback button:hover
 {
-    background-color: #000000;
+    background-color: var(--black);
 }
-.menu-reponsive
+.menu-reponsive i
 {
     display: none;
     font-size: 3rem;
+}
+.active
+{
+    color: var(--blue) !important;
 }
 /*--------------Main - Inicio ------------------*/
 
@@ -358,18 +361,13 @@ footer li a:hover{
 /*--------------Responsive-----------------*/
 
 @media(max-width:1180px) {
-
-    body {
-        width: 100%;
-        margin: auto;
-    }
     .nav-bar
     {
         display: none;
     }
-    .menu-reponsive
+    .menu-reponsive i
     {
-        display: block;
+        display: flex;
     }
     .index
     {
@@ -408,11 +406,6 @@ footer li a:hover{
 }
 @media (max-width:768px){
 
-    
-    body {
-        width: 100%;
-        margin: auto;
-    }
     .nav-bar
     {
         display: none;
@@ -469,7 +462,24 @@ footer li a:hover{
         padding: 10px 5px;
         font-size: 0.7rem;
     }
-
+    .index
+    {
+        gap: 30px;
+        padding: 15vh 0 10vh;
+    }
+    .aprender
+    {
+        gap: 30px;
+        padding: 10vh 0;
+    }
+    .container-phone
+    {
+        padding-bottom: 0;
+    }
+    .container-mobile
+    {
+        padding-top: 0;
+    }
     .container-phone video, .container-mobile video
     {
         max-width: 100px;
@@ -506,12 +516,19 @@ footer li a:hover{
     }
     .text-index h1, .notas h1
     {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
-
+    .category
+    {
+        padding: 0 50px;
+    }
     .category h2
     {
         font-size: 1.2rem;
+    }
+    .notas
+    {   
+        min-height: 70vh;
     }
     footer
     {
@@ -520,5 +537,22 @@ footer li a:hover{
     footer ul
     {
         display: block;
+    }
+}
+
+@media (max-width:300px) {
+ 
+    .text-index h1, .notas h1
+    {
+        font-size: 2rem;
+    }
+    .category h2, .navegation h1
+    {
+        font-size: 1rem;
+    }
+
+    footer, .category p, .text-index p, .notas button
+    {
+        font-size: 0.8rem;
     }
 }
