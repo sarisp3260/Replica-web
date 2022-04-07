@@ -6,7 +6,9 @@ Se desarrollo una página web con leguajes de programación como HTML, CSS y git
 ## Links
 - github pages https://sarisp3260.github.io/Replica-web/
 - Figma Replica-web https://www.figma.com/file/JGwk1EI06OtkxBznPyoKeG/work?node-id=48%3A7
-- Trello https://trello.com/invite/b/oxgbBJPt/c6bd8a82c50ac8dc56526b0d5fc72819/replica-web
+- Trello https://trello.com/invite/b/oxgbBJPt/c6bd8a82c50ac8dc56526b0d5fc72819/replica-1
+web
 
+<img align='right' src="assets/github-contribution-grid-snake" width="230">
 
 &copy; Sara Salas, 2022 :seedling:
