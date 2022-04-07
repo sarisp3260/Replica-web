@@ -9,6 +9,6 @@ Se desarrollo una página web con leguajes de programación como HTML, CSS y git
 - Trello https://trello.com/invite/b/oxgbBJPt/c6bd8a82c50ac8dc56526b0d5fc72819/replica-1
 web
 
-<img align='right' src="assets/github-contribution-grid-snake" width="230">
+![Snake animation](https://github.com/rafaballerini/rafaballerini/blob/output/github-contribution-grid-snake.svg)
 
 &copy; Sara Salas, 2022 :seedling:
